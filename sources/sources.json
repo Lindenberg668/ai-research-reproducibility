@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "repository": "ai-research-reproducibility",
+  "reviewed_on": "2026-11-21",
+  "language": "en",
+  "policy": "Each source supports only the narrow claim_scope. Cross-project architecture, gates, thresholds, and selection guidance are author recommendations requiring local validation. URL reachability is transport evidence only.",
+  "sources": [
+    {
+      "name": "RO-Crate",
+      "url": "https://www.researchobject.org/ro-crate/specification/1.2/",
+      "type": "official standard, policy, archival service, or upstream documentation",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "research-object packaging and metadata",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "DataLad",
+      "url": "https://handbook.datalad.org/en/latest/",
+      "type": "official standard, policy, archival service, or upstream documentation",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "data/version management workflow",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "DVC",
+      "url": "https://dvc.org/doc/use-cases/versioning-data-and-model-files",
+      "type": "official standard, policy, archival service, or upstream documentation",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "data and model versioning workflow",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "ReproZip",
+      "url": "https://github.com/VIDA-NYU/reprozip",
+      "type": "official standard, policy, archival service, or upstream documentation",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "computational environment capture role",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "MLflow",
+      "url": "https://mlflow.org/docs/latest/ml/tracking/",
+      "type": "official standard, policy, archival service, or upstream documentation",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "experiment tracking concepts",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "Zenodo",
+      "url": "https://developers.zenodo.org/",
+      "type": "official standard, policy, archival service, or upstream documentation",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "deposit and persistent-record API",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "SoftwareHeritage",
+      "url": "https://www.softwareheritage.org/save-and-reference-research-software/",
+      "type": "official standard, policy, archival service, or upstream documentation",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "software preservation and referencing",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "CFF",
+      "url": "https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md",
+      "type": "official standard, policy, archival service, or upstream documentation",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "software citation metadata",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "SPDX",
+      "url": "https://spdx.github.io/spdx-spec/v3.0/",
+      "type": "official standard, policy, archival service, or upstream documentation",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "software metadata and relationships",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "NatureAI",
+      "url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
+      "type": "official standard, policy, archival service, or upstream documentation",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "one publisher AI-use policy",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "Belmont Report",
+      "url": "https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html",
+      "type": "official research-ethics report",
+      "authority": "US Department of Health and Human Services, Office for Human Research Protections",
+      "version_or_date": "official online text; reviewed 2026-11-21",
+      "claim_scope": "ethical principles and applications for research involving human subjects",
+      "does_not_support": "This US research-ethics source does not determine whether a particular activity is regulated research or replace institutional review."
+    },
+    {
+      "name": "45 CFR 46",
+      "url": "https://www.hhs.gov/ohrp/regulations-and-policy/regulations/45-cfr-46/index.html",
+      "type": "official regulation and guidance landing page",
+      "authority": "US Department of Health and Human Services, Office for Human Research Protections",
+      "version_or_date": "current official landing page; reviewed 2026-11-21",
+      "claim_scope": "US regulatory framework and subparts for protection of human research subjects",
+      "does_not_support": "This US regulation does not apply universally and the link does not establish approval, consent, or compliance for a particular study."
+    }
+  ]
+}

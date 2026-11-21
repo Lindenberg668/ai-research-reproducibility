@@ -1,0 +1,75 @@
+schema_version: "1.0"
+packet_id: "<fill>"
+packet_version: "0.1.0"
+frozen_at: null
+packet_sha256: "<fill>"
+publication_authorized: false
+claims:
+  - claim_id: C1
+    statement: "<fill bounded claim>"
+    population_or_scope: "<fill>"
+    metric_and_tolerance: "<fill>"
+    evidence_ids: [D1, S1, R1]
+    status: "INDETERMINATE"
+inputs:
+  - evidence_id: D1
+    role: data
+    persistent_or_content_id: "<fill>"
+    license_or_governance: "<fill>"
+    access: "<public|controlled|restricted>"
+    personal_or_sensitive_data: false
+software:
+  - evidence_id: S1
+    repository: "<fill>"
+    commit: "<fill>"
+    environment_or_image_digest: "<fill>"
+    external_dependencies: []
+procedure:
+  protocol_path: "<fill>"
+  protocol_sha256: "<fill>"
+  preprocessing: "<fill>"
+  exclusions: []
+  deviations: []
+ai_assistance:
+  - effect: "<discovery|drafting|code|labeling|analysis|figure|prose|review>"
+    system_and_model: "<fill>"
+    version_or_date: "<fill>"
+    config: "<fill>"
+    prompt_or_instruction_hash: "<fill>"
+    governed_record_location: "<fill>"
+    tool_access: []
+    human_reviewer: "<fill>"
+    resulting_artifact_or_diff: "<fill>"
+runs:
+  - evidence_id: R1
+    run_id: "<fill>"
+    state: "NOT_RUN"
+    configuration_sha256: "<fill>"
+    seed_or_variance_policy: "<fill>"
+    resources: "<fill>"
+    raw_output_sha256: "<fill>"
+    failures: []
+results:
+  derived_artifacts: []
+  analysis_code_commit: "<fill>"
+  uncertainty_method: "<fill>"
+independent_reproduction:
+  reviewer: "<fill>"
+  cold_review_ambiguities: []
+  authorized_environment: "<fill>"
+  deviations: []
+  claim_results:
+    C1: "INDETERMINATE"
+archives_and_citation:
+  ro_crate_path: "<fill>"
+  zenodo_or_other_pid: "<fill>"
+  software_heritage_id: "<fill>"
+  citation_file: "<fill>"
+  spdx_or_license_record: "<fill>"
+ethics_and_access:
+  approval_record: "<fill or not applicable>"
+  consent_and_data_rights: "<fill>"
+  retention_and_deletion: "<fill>"
+  conflicts_of_interest: "<fill>"
+known_limits: []
+final_state: "LOCAL_REVIEW_ONLY"
