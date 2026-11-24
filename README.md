@@ -1,5 +1,10 @@
 # Reproducible AI-Assisted Research Packets
 
+
+> **Decision:** Use this packet when an AI-assisted research claim must bind immutable inputs, code, environment, procedure, assistance, variance, and unavailable evidence; skip it if a screenshot or lockfile is being treated as reproducibility.
+>
+> **For:** research engineers, reviewers, and benchmark maintainers  ·  **Not for:** teams unwilling to preserve negative results or distinguish rerun from correctness
+
 Reproducibility is not a screenshot of a result and not a dependency lockfile alone. A reviewer needs to know **which claim was made, which immutable inputs and code support it, which environment and procedure produced the observation, where AI assistance entered, what varied across runs, and what remains unavailable or unproven**.
 
 This guide defines a research packet around that chain. It does not promise that a result is correct merely because it can be rerun. It also does not require publishing data that participants, licenses, contracts, or law require you to protect.
@@ -146,6 +151,14 @@ A passing packet means another reviewer has a defined route to test the claim. I
 
 Create a new packet version whenever a claim, data snapshot, code commit, environment, model, prompt/instruction, metric, exclusion, analysis, or disclosure changes. Never rewrite a frozen packet in place.
 
+## Adjacent guides
+
+- [code-rag-chunking-benchmark](https://github.com/Mustafa1801/code-rag-chunking-benchmark) — Use it as a concrete benchmark whose corpus, questions, runs, and results need reproducible packaging.
+- [llm-test-determinism-guide](https://github.com/Simmondsun/llm-test-determinism-guide) — Use it when the research object is an LLM application regression suite running in CI.
+- [open-source-ai-code-provenance](https://github.com/ankr989/open-source-ai-code-provenance) — Use it for a narrower assertion about AI assistance on a code artifact.
+
 ## License
 
 Original guide and reproduction manifest: CC BY 4.0. Linked standards, policies, documentation, and projects retain their own terms.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
